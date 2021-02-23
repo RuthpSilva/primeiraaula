@@ -1,0 +1,290 @@
+
+body {
+
+	padding: 100%;
+
+	background-image: url(imgFundo//fundo.jpg);
+	background-image: 100%;
+	
+}
+
+p {
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 18px;
+}
+
+a {
+	margin: 10px;
+	text-align: center;
+	font-size: 18px;
+}
+
+ul {
+	margin-left: 10px;
+}
+
+.escola p {
+
+	margin-top: 25px;
+	text-align: center;
+	font-size: 24px;
+	font-family: Lucida Handwriting;
+}
+
+
+.container1 {
+
+	border-bottom: 1px solid;
+	margin: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: white;
+
+	height: auto;
+	align-items: center;
+
+	margin-bottom: 10px;
+	
+}
+
+.logo img {
+
+	margin-top: 3px;
+	width: 90px ;
+	height: 70px;
+
+}
+
+
+  label {
+  	display: block;
+  }
+
+
+  input, button {
+  	padding: 10px;
+  	margin-top: 10px;
+  }
+
+  input {
+  	width: 50%;
+  }
+
+
+.busca {
+
+	font-size: 20px;
+	text-align: center;
+	margin: 15px;
+
+}
+
+.container2 {
+
+	display: flex;
+
+	width: 100%;
+	height: 600px;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+	align-items: center;
+}
+
+.container2 a {
+	font-size: 21px;
+	font-family: Times New Roman;
+	color: white;
+}
+
+
+.introducao {
+
+	display: flex;
+	padding: 10px;
+
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+	width: 450px;
+	height: 500px;
+}
+
+.introducao p {
+
+	margin-bottom: 10px;
+	text-align: justify;
+	font-size: 22px;
+
+}
+
+.conteudo {
+
+	margin-left: 35px;
+	margin-bottom: 10px;
+
+}
+
+.inicio {
+	display: grid;
+
+	width: 100%;
+	margin-left: 5%;
+	margin-right: 5%;
+
+	grid-template-columns: 90px 450px 950px;
+	grid-template-rows: auto;
+	grid-column-gap: 35px;
+	
+}
+
+
+#botao {
+
+	width: 250px;
+	font-size: 20px;
+	text-align: center;
+	margin: 15px;
+
+}
+
+#botao {
+	border: none;
+	background: white;
+}
+
+
+/* Slideshow container */
+.gallery-container {
+  width: 90%;
+  position: relative;
+  margin: 0 5%;
+  background: #333;
+  margin-left: 5px solid blue;
+  padding: 2px;
+}
+  @media (min-width: 480px) {
+      .gallery-container {
+        width: 800px;
+        margin: auto;
+      }
+  }
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  background-color: rgba(0,0,0,0.1);
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 20px;
+  font-family: Times New Roman;
+  padding: 8px 12px;
+  width: 100%;
+  text-align: left;
+}
+
+.imgslide {
+  width: 100%;
+}
+
+
+@media (max-width: 768px) {
+  .numbertext {
+    top: 15px;
+  }
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.cursos {
+	display: flex;
+
+	width: 80%;
+	margin-left: 10%;
+	justify-content: space-between;
+
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+
+.cursos a {
+
+	margin: 10px;
+}
+
+
+
+.cadastro {
+
+	margin-top: 40px;
+	
+}
+
+
+.rodape {
+
+	border-top: 1px solid;
+	margin: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: white;
+
+	height: auto;
+	text-align: center;
+
+	margin: 10px;
+
+}
+
